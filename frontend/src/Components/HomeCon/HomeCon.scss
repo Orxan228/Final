@@ -1,0 +1,48 @@
+.content{
+    width: 100%;
+    padding: 100px 0 50px 0;
+
+    &__inner{
+        width: 70%;
+        margin: 0 auto;
+
+        &-p1{
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+        }
+        &-p2{
+            font-weight: 300;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        &__vitrine{
+            width: 100%;
+            border: solid;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            &__item{
+                width: 30%;
+                border: solid;
+                margin-bottom: 40px;
+                &-img{
+                    width: 100%;
+
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+                &-name{
+                    padding: 10px;
+                }
+                &-price{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}

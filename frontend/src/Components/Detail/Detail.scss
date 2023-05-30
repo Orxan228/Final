@@ -1,0 +1,24 @@
+.detail{
+    padding: 200px 40px;
+
+
+    &__item{
+        width: 30%;
+        border: solid;
+        margin-bottom: 40px;
+        &-img{
+            width: 100%;
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &-name{
+            padding: 10px;
+        }
+        &-price{
+            padding: 10px;
+        }
+    }
+}

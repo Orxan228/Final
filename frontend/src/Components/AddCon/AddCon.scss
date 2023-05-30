@@ -1,0 +1,44 @@
+.add {
+  width: 100%;
+  min-height: 80vh;
+  padding: 150px 0;
+
+    &__inner{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-size: 2.5rem;
+            padding: 20px;
+        }
+        &--form{
+            width: 100%;
+            padding: 10px;
+            border: solid;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            input{
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 10px;
+                font-size: 1.25rem;
+            }
+            button{
+                width: 100%;
+                border: 1px solid black;
+                border-radius: 5px;
+                padding: 10px;
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
